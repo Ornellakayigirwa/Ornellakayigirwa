@@ -1,0 +1,8 @@
+function sayHello(name, city, state) {
+  
+  //join the name to make a full name
+  const myNames = name.join(' ');
+  
+  // Return the complete greeting string
+  return `Hello, ${myNames}! Welcome to ${city}, ${state}!`;
+}

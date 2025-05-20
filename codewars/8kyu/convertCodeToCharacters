@@ -1,0 +1,11 @@
+function isVow(a) {
+  
+  //character codes for lowercase vowels 'a','e', 'i', 'o', 'u' 
+  const vowelNum = [97, 101, 105, 111, 117]; 
+  
+  // Map over the array and replace any vowel character code with the actual vowel
+  return a.map(num => 
+               
+    vowelNum.includes(num) ? String.fromCharCode(num) : num //Convert code to character if it's a vowel and leave non vowel codes unchanged.
+  );
+}
