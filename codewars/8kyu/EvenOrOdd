@@ -1,0 +1,5 @@
+function evenOrOdd(number) {
+  
+  // if the remainder is 0 the number is even else it will be odd
+  return number % 2 === 0 ? "Even" : "Odd";
+}
