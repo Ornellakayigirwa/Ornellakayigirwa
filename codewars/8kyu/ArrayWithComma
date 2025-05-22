@@ -1,0 +1,7 @@
+function printArray(array){
+  
+  //combines all elements in the array into a string with comma.
+  const word = array.join(',')
+  
+   return word
+}

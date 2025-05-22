@@ -1,0 +1,16 @@
+function removeEveryOther(arr){
+  
+  //creating a new empty array
+   let newArr = [];
+  
+  //looping through every element in the array
+  for (let i = 0 ; i < arr.length; i ++){
+    
+    //keep elements at even indexes of 0,2,4,6,...
+    if (i % 2 ===0){
+    newArr.push(arr[i])  
+    }
+    
+  }
+  return newArr;
+}
