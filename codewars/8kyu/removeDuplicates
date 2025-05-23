@@ -1,0 +1,15 @@
+function distinct(a) {
+  
+  //creating an array that will hold the results
+  let results = [];
+  
+  //adding the results in the array if it is not yet there
+   for (let i = 0; i < a.length; i++){
+     if(results.indexOf(a[i])=== -1){
+       
+       // push the current element
+       results.push(a[i]);
+     }
+   }
+  return results ;  // Return the array without duplicates
+}

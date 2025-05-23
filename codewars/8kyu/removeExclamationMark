@@ -1,0 +1,7 @@
+function removeExclamationMarks(s) {
+  
+  //split thre string at every exclamation and the joims the string without the eclamation mark
+  const results = s.split('!').join('')
+  
+  return results;
+}
