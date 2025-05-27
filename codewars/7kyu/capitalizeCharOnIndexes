@@ -1,0 +1,21 @@
+function capitalize(s,arr){
+  
+   
+  let capitalized ='';
+  
+  for (let i = 0; i < s.length; i++){
+
+    
+    if( arr.includes(i)){
+      
+      
+      capitalized += s[i].toUpperCase();
+      
+    } else{
+      
+        capitalized += s[i];
+    }
+  } 
+ 
+  return capitalized;
+}
