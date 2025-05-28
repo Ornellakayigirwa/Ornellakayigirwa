@@ -1,0 +1,16 @@
+function GeometricSequenceSum(a, r, n) {
+  
+  let geometricSequence ;
+  let sum = 0;
+  
+  for (let i = 0; i < n; i++){
+    
+   geometricSequence = a * Math.pow(r, i);
+    
+    sum += geometricSequence;
+  }
+  
+  
+  return sum;
+  
+}

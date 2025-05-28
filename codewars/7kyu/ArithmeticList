@@ -1,0 +1,17 @@
+function seqlist(first, c, l) {
+  
+  let arthList = [];
+  let i = 0;
+  let one = first;
+
+  while (i < l) {
+    
+    arthList.push(one);
+    
+    one += c;
+    
+    i++;
+  }
+
+  return arthList;
+}
