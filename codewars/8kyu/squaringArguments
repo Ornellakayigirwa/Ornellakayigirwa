@@ -1,0 +1,5 @@
+let square = sqr => {
+  
+  return sqr * sqr
+  
+}
