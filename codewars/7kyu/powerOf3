@@ -1,0 +1,16 @@
+function largestPower(n){
+  
+  let k = 0;
+  
+  if(n <= 1){
+    
+    return -1;
+  }
+  
+  while (Math.pow(3, k + 1 ) < n){
+   
+    k++
+    
+  }
+  return k
+}
