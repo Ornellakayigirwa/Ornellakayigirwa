@@ -1,0 +1,10 @@
+function digits(n) {
+
+  let count = 0;
+  
+ for(let a of n.toString()){
+   
+  count++
+ }
+  return count
+}
