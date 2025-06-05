@@ -1,0 +1,18 @@
+var palindromeChainLength = function(n) {
+  
+  let stepNumber = 0;
+
+  while (true) {
+    
+    let reversed = Number(n.toString().split('').reverse().join(''));
+
+    if (n === reversed) {
+      
+      return stepNumber;
+    }
+
+    n = n + reversed;
+    
+    stepNumber++;
+  }
+};
