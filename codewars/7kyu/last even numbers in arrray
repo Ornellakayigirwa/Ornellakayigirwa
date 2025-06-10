@@ -1,0 +1,10 @@
+function evenNumbers(array, number) {
+  
+  let evenNum = array.filter(num =>{
+    return num % 2 === 0;
+  })
+  
+  let newArr = evenNum.slice(-number)
+  
+  return newArr
+}
