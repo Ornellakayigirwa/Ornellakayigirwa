@@ -1,0 +1,12 @@
+function getSumOfDigits(integer) {
+  var sum = 0;
+  var digits = integer.toString()
+  var i = 0;
+  
+  while(i < digits.length){
+    sum += Number(digits[i])
+    i++
+    
+  }
+  return sum;
+}
