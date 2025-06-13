@@ -1,0 +1,4 @@
+functon getCount(str){
+    let vowels = 'aeiou'
+    return str.split('').filter(s => vowels.includes(s)).length
+}
