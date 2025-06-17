@@ -1,0 +1,8 @@
+function findShort(s){
+    let words = s.split(' ');
+    let short = words.map(word => word.length)
+
+    let shortest = Math.min(...short)
+
+    return shortest;
+}
