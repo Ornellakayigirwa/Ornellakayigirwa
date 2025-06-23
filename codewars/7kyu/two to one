@@ -1,0 +1,12 @@
+function longest(s1, s2) {
+  const words = (s1 + s2).split('');
+  const newWord = [];
+
+  words.filter(char => {
+    if (!newWord.includes(char)) {
+      newWord.push(char);
+    }
+  });
+
+  return newWord.sort().join('');
+}
