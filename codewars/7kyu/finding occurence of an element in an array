@@ -1,0 +1,12 @@
+function findAll(array, n){
+    if(!array.includes(n)){
+        return []
+    }
+    let index = []
+    array.filter((arr, i)=> {
+        if(arr=== n){
+            index.push(i)
+        }
+    })
+    return index
+}
