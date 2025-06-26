@@ -1,0 +1,18 @@
+const orderedCount = function (text) {
+  let results = []
+  
+  text.split('').forEach(char =>{
+    
+    let occurence = results.find(item => item[0]=== char);
+    
+    if(occurence){
+      
+      occurence[1]++
+    }else {
+      results.push([char, 1])
+    }
+  })
+  
+
+  return results;
+  }
