@@ -1,0 +1,8 @@
+function highAndLow(numbers) {
+   
+  const numsArray = numbers.split(' ').map(Number);
+   
+  numsArray.sort((a, b) => b - a); 
+   
+  return `${numsArray[0]} ${numsArray[numsArray.length - 1]}`;
+}
