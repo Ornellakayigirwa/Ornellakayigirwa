@@ -1,0 +1,14 @@
+function hello(name) {
+  
+  if (name){
+    
+     let greet = name[0].toUpperCase() + name.slice(1).toLowerCase()
+     
+     return `Hello, ${greet}!`
+    
+  } else {
+    
+    return `Hello, World!`
+  }
+   
+}

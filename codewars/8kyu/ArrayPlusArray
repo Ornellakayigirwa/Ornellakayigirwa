@@ -1,0 +1,8 @@
+function arrayPlusArray(arr1, arr2) {
+
+  let firstArray = arr1.reduce((a, b) => a + b, 0);
+  let secondArray = arr2.reduce((a, b) => a + b,0);
+  
+  return firstArray + secondArray;
+
+}
