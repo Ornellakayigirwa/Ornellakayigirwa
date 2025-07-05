@@ -1,0 +1,12 @@
+functionwordSearch (query , seq) {
+
+     let matchingWord = []
+
+     seq.forEach(word => {
+        if(word.toLowerCase().includes(query.toLowerCase())){
+            matchingWord.push(word)
+        }
+     })
+
+     return matchingWord.length > 0 ? matchingWord : ['Empty']
+}
