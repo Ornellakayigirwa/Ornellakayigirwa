@@ -1,0 +1,17 @@
+function isIsogram(str) {
+  
+  str = str.toLowerCase();
+  
+  let word = '';
+
+  for (let i = 0; i < str.length; i++) {
+    
+    if (word.indexOf(str[i]) !== -1) {
+      
+      return false
+    }
+    word += str[i];
+  }
+
+  return true
+}
