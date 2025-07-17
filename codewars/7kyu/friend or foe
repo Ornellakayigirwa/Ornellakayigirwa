@@ -1,0 +1,13 @@
+function friend(friends){
+  
+  let myFriends = []
+  
+  friends.filter(person =>{
+    
+    if(person.length === 4){
+      myFriends.push(person)
+    }
+  })
+  
+  return myFriends
+}
