@@ -1,0 +1,10 @@
+function mergeArrays(arr1, arr2) {
+
+  const merged = [...arr1, ...arr2];
+
+  const unique = [...new Set(merged)];
+
+  unique.sort((a, b) => a - b);
+
+  return unique;
+}
