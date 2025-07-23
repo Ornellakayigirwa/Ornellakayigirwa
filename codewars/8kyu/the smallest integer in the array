@@ -1,0 +1,7 @@
+function findSmallestInt(arr) {
+  
+ let  smallest = arr.sort((a, b)=> a - b)
+ 
+ 
+  return smallest[0]
+}
