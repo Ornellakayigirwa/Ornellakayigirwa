@@ -1,0 +1,5 @@
+function moveZeros(arr) {
+ let nonZero = arr.filter(x => x !== 0);
+ let zero = arr.filter(x => x === 0);
+ return [...nonZero, ...zero];
+}
