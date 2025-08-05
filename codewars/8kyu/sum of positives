@@ -1,0 +1,11 @@
+function positiveSum(arr) {
+    let sum = 0;
+   arr.forEach((posNumber)=>{
+       
+       if (posNumber > 0){
+      sum += posNumber;
+       }
+  })
+  
+  return sum
+}
