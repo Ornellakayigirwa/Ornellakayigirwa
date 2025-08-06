@@ -1,0 +1,17 @@
+function order(words){
+
+  if (!words) return "";
+
+  const sentence = words.split(" ");
+  const result = [];
+
+  for (let i = 1; i <= 9; i++) {
+    for (let word of sentence) {
+      if (word.includes(i.toString())) {
+        result.push(word);
+      }
+    }
+  }
+
+  return result.join(" ");
+}
