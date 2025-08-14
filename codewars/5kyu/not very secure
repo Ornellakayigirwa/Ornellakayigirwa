@@ -1,0 +1,8 @@
+function alphanumeric(string){
+  let required = /^[a-zA-Z0-9]+$/
+  if(required.test(string)){
+    return true
+  } else{
+    return false
+  }
+}
